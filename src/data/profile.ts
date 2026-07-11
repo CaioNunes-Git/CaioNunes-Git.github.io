@@ -1,0 +1,81 @@
+export const profile = {
+  name: "Caio Nunes",
+  title: "Engenheiro de Software",
+  subtitle: "Full Stack & IA",
+  tagline: "Construo sistemas que combinam arquitetura robusta, automação inteligente e alta performance.",
+  email: "caionunes.profissional@gmail.com",
+  linkedin: "https://www.linkedin.com/in/caionunesdev/",
+  github: "https://github.com/dashboard",
+  location: "Salvador - BA, Brasil",
+  about: "Sou Engenheiro de Software com experiência prática em desenvolvimento Full Stack, arquitetura de APIs e aplicações de IA. Atuei em projetos de alto impacto social, como sistemas para a Agência de Vigilância Sanitária e soluções para a construção civil, sempre com foco em performance, escalabilidade e entrega de valor. Tenho background em qualidade e testes, o que me dá uma visão crítica de estabilidade e cobertura desde o início do ciclo de desenvolvimento. Hoje, trabalho com .NET, AngularJS, FastAPI, Python, ChromaDB, OpenAI Agents e n8n, criando soluções que vão desde a leitura inteligente de documentos até automações de processos operacionais.",
+  skills: [
+    {
+      category: "Frontend",
+      icon: "Code",
+      description: "Interfaces modernas, responsivas e acessíveis.",
+      items: ["TypeScript", "JavaScript", "Vue.js", "React", "AngularJS", "Tailwind CSS", "Vuetify", "Vue Router"],
+    },
+    {
+      category: "Backend",
+      icon: "Server",
+      description: "APIs escaláveis e arquitetura de serviços.",
+      items: ["C#", ".NET", "Java", "Spring Boot", "Python", "FastAPI", "Node.js"],
+    },
+    {
+      category: "IA & GenAI",
+      icon: "Brain",
+      description: "Agentes inteligentes, RAG e automação com LLMs.",
+      items: ["OpenAI Agents", "LangChain", "LangGraph", "RAG", "ChromaDB", "n8n", "YOLO", "OpenCV"],
+    },
+    {
+      category: "Dados",
+      icon: "Database",
+      description: "Modelagem e persistência de dados.",
+      items: ["PostgreSQL", "Oracle", "MySQL", "MongoDB", "ChromaDB"],
+    },
+    {
+      category: "Testes & DevOps",
+      icon: "Wrench",
+      description: "Qualidade, automação e infraestrutura.",
+      items: ["Cypress", "Jest", "JUnit", "JMeter", "Maestro", "Docker", "AWS", "Kafka", "Azure DevOps", "Git"],
+    },
+  ],
+  experiences: [
+    {
+      company: "Construmarket",
+      role: "Desenvolvedor FullStack",
+      period: "Ago 2025 – Atual",
+      location: "São Paulo, Brasil · Remoto",
+      summary: "Desenvolvimento e arquitetura de soluções web e IA para o setor da construção civil.",
+      highlights: [
+        "Manutenção e evolução de sistema legado em .NET Framework e AngularJS, corrigindo bugs e melhorando a experiência do cliente.",
+        "Arquitetura de leitor inteligente de documentos PDF (texto, imagens e metadados) para processos da construção civil, usando Python, FastAPI, ChromaDB, OpenAI Agents e Gemini.",
+        "Criação de automações com n8n integrando APIs e LLMs para análise de métricas operacionais, como Cycle Time e Lead Time por projeto.",
+      ],
+    },
+    {
+      company: "Horizon",
+      role: "Desenvolvedor Frontend",
+      period: "Ago 2024 – Abr 2025",
+      location: "Brasil",
+      summary: "Desenvolvimento frontend e aplicação de IA para órgãos públicos de saúde.",
+      highlights: [
+        "Desenvolvimento de sistema estratégico para a Agência de Vigilância Sanitária em Vue.js, TypeScript, Pinia, Vue Router e Vuetify, centralizando pendências e dívidas de estabelecimentos.",
+        "Implementação de modelo de IA para reconhecimento de objetos perigosos (armas brancas) em hospitais, utilizando Python, YOLO, OpenCV, Kafka e Docker.",
+      ],
+    },
+    {
+      company: "Solutis Tecnologias",
+      role: "Analista de QA",
+      period: "Out 2021 – Ago 2024",
+      location: "Salvador, Bahia, Brasil",
+      summary: "Automação de testes e garantia de qualidade em projetos de grande porte.",
+      highlights: [
+        "Automação de testes E2E com Cypress e BDD com Cucumber para redução de incidentes e documentação de cenários.",
+        "Testes de carga com JMeter simulando milhares de usuários e coletando métricas para melhoria de escalabilidade.",
+        "Automação de testes mobile com Maestro, substituindo o Appium para superar limitações de aplicações híbridas.",
+        "Liderança na escrita do modelo de planejamento de testes para histórias de usuário.",
+      ],
+    },
+  ],
+};
