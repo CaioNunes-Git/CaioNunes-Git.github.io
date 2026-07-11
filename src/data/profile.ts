@@ -5,7 +5,7 @@ export const profile = {
   tagline: "Construo sistemas que combinam arquitetura robusta, automação inteligente e alta performance.",
   email: "caionunes.profissional@gmail.com",
   linkedin: "https://www.linkedin.com/in/caionunesdev/",
-  github: "https://github.com/dashboard",
+  github: "https://github.com/CaioNunes-Git",
   location: "Salvador - BA, Brasil",
   about: "Sou Engenheiro de Software com experiência prática em desenvolvimento Full Stack, arquitetura de APIs e aplicações de IA. Atuei em projetos de alto impacto social, como sistemas para a Agência de Vigilância Sanitária e soluções para a construção civil, sempre com foco em performance, escalabilidade e entrega de valor. Tenho background em qualidade e testes, o que me dá uma visão crítica de estabilidade e cobertura desde o início do ciclo de desenvolvimento. Hoje, trabalho com .NET, AngularJS, FastAPI, Python, ChromaDB, OpenAI Agents e n8n, criando soluções que vão desde a leitura inteligente de documentos até automações de processos operacionais.",
   skills: [
